@@ -1,0 +1,172 @@
+{
+  "pages": [
+    {
+      "path": "pages/home/index",
+      "style": {
+        "navigationBarTitleText": "行情中心"
+      }
+    },
+    {
+      "path": "pages/supply/index",
+      "style": {
+        "navigationBarTitleText": "货源",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/publish/index",
+      "style": {
+        "navigationBarTitleText": "发布"
+      }
+    },
+    {
+      "path": "pages/message/index",
+      "style": {
+        "navigationBarTitleText": "消息"
+      }
+    },
+    {
+      "path": "pages/mine/index",
+      "style": {
+        "navigationBarTitleText": "我的"
+      }
+    },
+    {
+      "path": "pages/bookkeeping/index",
+      "style": {
+        "navigationBarTitleText": "快速记账"
+      }
+    },
+    {
+      "path": "pages/consignment/index",
+      "style": {
+        "navigationBarTitleText": "代卖管理"
+      }
+    },
+    {
+      "path": "pages/sales-history/index",
+      "style": {
+        "navigationBarTitleText": "销售记录",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/settlement/index",
+      "style": {
+        "navigationBarTitleText": "结算对账",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/logistics/index",
+      "style": {
+        "navigationBarTitleText": "运单大厅",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/tracking/index",
+      "style": {
+        "navigationBarTitleText": "在途追踪"
+      }
+    },
+    {
+      "path": "pages/mall/index",
+      "style": {
+        "navigationBarTitleText": "品牌商城"
+      }
+    },
+    {
+      "path": "pages/mall/detail",
+      "style": {
+        "navigationBarTitleText": "商品详情"
+      }
+    },
+    {
+      "path": "pages/mall/cart",
+      "style": {
+        "navigationBarTitleText": "购物车"
+      }
+    },
+    {
+      "path": "pages/mall/checkout",
+      "style": {
+        "navigationBarTitleText": "确认订单"
+      }
+    },
+    {
+      "path": "pages/mall/orders",
+      "style": {
+        "navigationBarTitleText": "我的订单"
+      }
+    },
+    {
+      "path": "pages/finance/index",
+      "style": {
+        "navigationBarTitleText": "商务服务"
+      }
+    },
+    {
+      "path": "pages/supply-demand/index",
+      "style": {
+        "navigationBarTitleText": "大宗供需"
+      }
+    },
+    {
+      "path": "pages/ranking/index",
+      "style": {
+        "navigationBarTitleText": "品种排行"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "鲜桥",
+    "navigationBarBackgroundColor": "#0F3B2C",
+    "backgroundColor": "#F5F5F5",
+    "backgroundColorTop": "#F5F5F5",
+    "backgroundColorBottom": "#F5F5F5"
+  },
+  "tabBar": {
+    "color": "#9CA3AF",
+    "selectedColor": "#0F3B2C",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "行情",
+        "iconPath": "static/images/home.svg",
+        "selectedIconPath": "static/images/home-active.svg"
+      },
+      {
+        "pagePath": "pages/supply/index",
+        "text": "货源",
+        "iconPath": "static/images/supply.svg",
+        "selectedIconPath": "static/images/supply-active.svg"
+      },
+      {
+        "pagePath": "pages/publish/index",
+        "text": "发布",
+        "iconPath": "static/images/publish.svg",
+        "selectedIconPath": "static/images/publish-active.svg"
+      },
+      {
+        "pagePath": "pages/message/index",
+        "text": "消息",
+        "iconPath": "static/images/message.svg",
+        "selectedIconPath": "static/images/message-active.svg"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "text": "我的",
+        "iconPath": "static/images/mine.svg",
+        "selectedIconPath": "static/images/mine-active.svg"
+      }
+    ]
+  },
+  "easycom": {
+    "autoscan": true,
+    "custom": {}
+  }
+}

@@ -1,0 +1,132 @@
+/* ============================================
+   鲜桥 FreshBridge — Design System v2
+   精致高端农产品风格 | 参考：山姆会员店
+   ============================================ */
+
+/* ----- CSS Custom Properties ----- */
+page {
+  /* Primary: deep forest green */
+  --primary: #0F3B2C;
+  --primary-light: #1A5C3E;
+
+  /* Accent: champagne gold */
+  --gold: #C9A96E;
+  --gold-light: #F5ECD7;
+
+  /* Semantic */
+  --danger: #DC2626;
+  --up: #16A34A;
+
+  /* Background */
+  --bg: #F5F5F5;
+  --white: #FFFFFF;
+
+  /* Text */
+  --text: #1A1A1A;
+  --text-secondary: #6B7280;
+  --text-muted: #9CA3AF;
+
+  /* Border */
+  --border: #E5E7EB;
+  --border-light: #F0F0F0;
+
+  /* Typography */
+  font-size: 16px;
+  font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+  color: var(--text);
+  background-color: var(--bg);
+}
+
+/* ============================================
+   Utility Classes
+   ============================================ */
+
+/* ----- Buttons ----- */
+.btn-primary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 12rpx 32rpx;
+  background-color: var(--primary);
+  color: var(--white);
+  border: none;
+  border-radius: 12rpx;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.btn-primary:active { opacity: 0.85; }
+
+.btn-gold {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 12rpx 32rpx;
+  background-color: var(--gold);
+  color: var(--white);
+  border: none;
+  border-radius: 12rpx;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.btn-gold:active { opacity: 0.85; }
+
+.btn-outline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 12rpx 32rpx;
+  background: transparent;
+  color: var(--primary);
+  border: 2rpx solid var(--primary);
+  border-radius: 12rpx;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+/* ----- Cards ----- */
+.card {
+  background-color: var(--white);
+  border-radius: 12rpx;
+  padding: 24rpx;
+  box-sizing: border-box;
+  box-shadow: 0 2rpx 16rpx rgba(0,0,0,0.06);
+  margin-bottom: 16rpx;
+}
+
+/* ----- Amount display ----- */
+.amount {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.amount-green {
+  color: var(--primary);
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.amount-gold {
+  color: var(--gold);
+  font-weight: 700;
+  font-size: 20px;
+}
+
+/* ----- Touch target (minimum 44px) ----- */
+.touch-target {
+  min-height: 44px;
+  min-width: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
